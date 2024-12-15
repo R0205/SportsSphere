@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Global styles */
+body {
+    background-color: #1a202c; /* Set a dark background color globally */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sports-carousel {
+    background-color: #1a202c; /* Dark background for carousel to match the hero */
+  }
+  
+  /* Ensure that the Hero Section text is visible */
+  .hero-text {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .animate-gradient {
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  
